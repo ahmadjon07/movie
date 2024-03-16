@@ -47,3 +47,12 @@ ul, ol{
     display: flex;
     justify-content: space-between;
 }
+
+@media(max-width: 375px){
+    .carousel-item{
+        img{
+            width: 375px;
+            object-fit: cover;
+        }
+    }
+}
